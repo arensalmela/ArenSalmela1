@@ -1,11 +1,12 @@
 body {
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-right: 100px;
   background-color: skyblue;
 }
 
 .container {
+  background-color: gray;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -13,4 +14,12 @@ body {
 
 .card {
   border-bottom: ;
+}
+
+.img-portfolio {
+  max-width: 100%;
+}
+
+@media (max-width: 400px) {
+  .container;
 }
