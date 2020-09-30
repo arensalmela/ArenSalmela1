@@ -1,3 +1,16 @@
 body {
-  background-color: lightskyblue;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: skyblue;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  border-bottom: ;
 }
