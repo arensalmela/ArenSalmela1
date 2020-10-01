@@ -1,25 +1,20 @@
-body {
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: skyblue;
-}
-
-.container {
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: gray;
-  margin-top: 50px;
-  margin-left: auto;
+  height: 5%;
+  text-align: center;
+}
+.container {
+  margin-top: 100px;
   margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  background-color: aquamarine;
 }
 
-.card {
-  border-bottom: ;
-}
-
-.img-portfolio {
-  max-width: 100%;
-}
-
-@media (max-width: 400px) {
-  .container;
+body {
+  background-color: whitesmoke;
 }
