@@ -7,14 +7,11 @@ footer {
   height: 5%;
   text-align: center;
 }
-.container {
-  margin-top: 100px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 100px;
-  background-color: aquamarine;
-}
 
 body {
   background-color: whitesmoke;
+}
+
+.bg-color {
+  background-color: aquamarine;
 }
