@@ -1,3 +1,5 @@
+/* Collaborated with https://github.com/Ewager1 and https://github.com/ReindeerCode */
+
 body {
   background-color: whitesmoke;
 }
@@ -6,9 +8,13 @@ body {
   background-color: aquamarine;
 }
 
+/*Google font addition*/
+
 main h1 h5 div header {
   font-family: "Roboto", sans-serif;
 }
+
+/*Psuedo Code for social links */
 
 a:hover {
   color: aquamarine;

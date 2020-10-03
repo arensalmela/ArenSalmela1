@@ -1,5 +1,13 @@
 # ResponsivePortfolio
 
+## Collaborated with https://github.com/Ewager1 and https://github.com/ReindeerCode
+
+## Project Link
+
+https://arensalmela.github.io/ResponsivePortfolio/
+
+### Screenshots of website posted below
+
 ### Directions
 
 First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
@@ -31,3 +39,13 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 - Each page must have valid and correct HTML. (use a validation service)
 - Must contain your personalized information. (bio, name, images, links to social media, etc.)
 - Must properly utilize Bootstrap components and grid system.
+
+## Screen shots of website
+
+![Screenshot About me page 1](Assets/Screeshots/Aboutme1.png)
+![Screenshot About me page 2](Assets/Screeshots/Aboutme2.png)
+![Screenshot Portfolio page 1](Assets/Screeshots/Portfolio1.png)
+![Screenshot Portfolio page 2](Assets/Screeshots/Portfolio2.png)
+![Screenshot Portfolio page 3](Assets/Screeshots/Portfolio3.png)
+![Screenshot Contact page 1](Assets/Screeshots/Contact1.png)
+![Screenshot Contact page 2](Assets/Screeshots/Contact2.png)
