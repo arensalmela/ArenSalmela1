@@ -6,7 +6,7 @@
 
 https://arensalmela.github.io/ResponsivePortfolio/
 
-### Screenshots of website posted below
+### Screenshots of website posted down below
 
 ### Directions
 

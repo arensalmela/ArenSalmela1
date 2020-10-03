@@ -8,6 +8,10 @@ body {
   background-color: aquamarine;
 }
 
+.navbarright {
+  justify-content: flex-end;
+}
+
 /*Google font addition*/
 
 main h1 h5 div header {

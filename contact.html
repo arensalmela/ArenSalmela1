@@ -30,112 +30,119 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
 
-  <header>
-    <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-color">
-      <a class="navbar-brand" href="./index.html">Aren Salmela</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-
-             <!--Linking other pages-->
-
-            <a class="nav-link" href="./index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-<br>
-<br>
-
   <body>
+    <header>
+      <!--Nav Bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-color">
+        <a class="navbar-brand" href="./index.html">Aren Salmela</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbarright" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <!--Linking other pages-->
+
+              <a class="nav-link" href="./index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!--Header Section-->
 
     <section>
-      <div class="container border-bottom">
+      <div class="container border-bottom pt-3">
         <div class="page-header">
-          <h1>Reach Out!</h1>      
+          <h1>Reach Out!</h1>
         </div>
+      </div>
     </section>
-    <br>
 
     <!--Skeleton for contact form: does not work w/o Java -->
 
-      <main class="container">  
+    <main class="container mt-3">
       <div class="bg-color pt-3 pb-3 pl-3 pr-3">
         <div class="row">
-            <div class="col-md-8 col-sm-12 col-xs-12 offset-md-2">
-                <form>
-                    <div class="form-group">
-                      <label for="exampleFormControlInput1">Name</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                      </div>
-                    <div class="form-group">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-light"><h2>Send</h2></button>
-                  </form>
-            </div>
-            <div class="col-3">
-            </div>
-        </div>
-      
-       
-    </main>
-    <br>
-    <br>
-
-<!--links for github and linkedin-->
-
-    <section class = "container d-flex justify-content-center">
-      <div class = "row">
-        <div class = "col">
-        <a href ="https://www.linkedin.com/in/arensalmela/" target="_blank">LinkedIn</a>
-      </div>
-        <div class = "col"><a href ="https://github.com/arensalmela" target="_blank">GitHub 
-        </a>
+          <div class="col-md-8 col-sm-12 col-xs-12 offset-md-2">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="John Smith"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="form-group"></div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="button" class="btn btn-light">Send</button>
+            </form>
           </div>
-       
+          <div class="col-3"></div>
+        </div>
       </div>
-     
-    
+    </main>
 
+    <!--links for github and linkedin-->
+
+    <section class="container d-flex justify-content-center mt-3">
+      <div class="row">
+        <div class="col">
+          <a href="https://www.linkedin.com/in/arensalmela/" target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+        <div class="col">
+          <a href="https://github.com/arensalmela" target="_blank">GitHub </a>
+        </div>
+      </div>
     </section>
+    <footer>
+      <h5>
+        This Website is always a work in progress, thank you for stopping by.
+      </h5>
+    </footer>
   </body>
-  
-  <footer>
-    <h5>This Website is always a work in progress, thank you for stopping by.</h5>
-  </footer>
 </html>
