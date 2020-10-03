@@ -1,6 +1,6 @@
 # ResponsivePortfolio
 
-## Collaborated with https://github.com/Ewager1 and https://github.com/ReindeerCode
+### Collaborated with https://github.com/Ewager1 and https://github.com/ReindeerCode
 
 ## Project Link
 
