@@ -41,8 +41,8 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-color">
-        <a class="navbar-brand" href="./index.html">Aren Salmela</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+        <a class="navbar-brand newText" href="#">Aren Salmela</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -59,15 +59,15 @@
             <li class="nav-item active">
               <!--Linking other pages-->
 
-              <a class="nav-link" href="./index.html"
+              <a class="nav-link" href="#aboutMe"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -76,7 +76,7 @@
 
     <!--Header Section-->
     <section>
-      <div class="container border-bottom pt-3">
+      <div id="aboutMe" class="container border-bottom pt-3">
         <div class="page-header">
           <h1>About Me</h1>
         </div>
@@ -92,14 +92,14 @@
               class="float-left mb-2 mr-3"
               alt="Aren Salmela Head Shot"
             />
-            <p>
+            <p class="newText">
               Hello! My name is Aren and I am from Beverly, Massachusetts. I
               graduated from the University of New Hampshire in 2017. I
               currently work as an Account Manager for a craft beverage
               distributer in Massachusetts.
             </p>
 
-            <p>
+            <p class="newText">
               In my spare time, I love playing video games, discovering new
               craft beer, traveling, and binge watching new shows on Netflix. If
               I am able to disappear for a day, I love making my way up to Loon
@@ -116,7 +116,7 @@
       <br />
       <br />
       <section>
-        <div class="container border-bottom pt-3">
+        <div id="portfolio" class="container border-bottom pt-3">
           <div class="page-header">
             <h1>Portfolio</h1>
           </div>
@@ -124,16 +124,16 @@
       </section>
 
       <div>
-        <div class="container mt-3">
-          <div class="row pt-2">
-            <div class="col-12 col-md-6 col-lg-6">
+        <div class="container bg-color mt-3">
+          <div class="row pt-5">
+            <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
               <div class="card" style="width: 18rem">
                 <img
                   class="card-img-top"
                   src="Assets/Images/WeatherDB.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body card-color">
                   <h5 class="card-title">Weather Dashboard</h5>
                   <p>Input a city, find out the weather</p>
                   <a
@@ -152,14 +152,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <br />
+            <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
               <div class="card" style="width: 18rem">
                 <img
                   class="card-img-top"
                   src="Assets/Images/Project1.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body card-color">
                   <h5 class="card-title">Stay Yummy!</h5>
                   <p>Discover hotels and restaurants</p>
                   <a
@@ -180,15 +181,17 @@
             </div>
           </div>
 
-          <div class="row pt-2">
-            <div class="col-12 col-md-6 col-lg-6">
+          <br />
+
+          <div class="row pt-5 pb-5">
+            <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
               <div class="card" style="width: 18rem">
                 <img
                   class="card-img-top"
                   src="Assets/Images/WDSched.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body card-color">
                   <h5 class="card-title">Schedule</h5>
                   <p>Keep yourself organized</p>
                   <a
@@ -207,14 +210,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6">
+            <br />
+            <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
               <div class="card" style="width: 18rem">
                 <img
                   class="card-img-top"
                   src="Assets/Images/password.png"
                   alt="Card image cap"
                 />
-                <div class="card-body">
+                <div class="card-body card-color">
                   <h5 class="card-title">Password Generator</h5>
                   <p>Need a new password?</p>
                   <a

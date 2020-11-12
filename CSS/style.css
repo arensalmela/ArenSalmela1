@@ -5,7 +5,7 @@ body {
 }
 
 .bg-color {
-  background-color: aquamarine;
+  background-color: #051458e3;
 }
 
 .navbarright {
@@ -32,4 +32,12 @@ footer {
   background-color: gray;
   height: 5%;
   text-align: center;
+}
+
+.card-color {
+  background-color: #585ae91f;
+}
+
+.newText {
+  color: white;
 }
