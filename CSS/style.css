@@ -1,7 +1,7 @@
 /* Collaborated with https://github.com/Ewager1 and https://github.com/ReindeerCode */
 
 body {
-  background-color: whitesmoke;
+  background: #295675 url("Assets/Images/c4.jpg") no-repeat center top;
 }
 
 .bg-color {
@@ -27,8 +27,11 @@ body {
 
 /*Psuedo Code for social links */
 
-a:hover {
-  color: aquamarine;
+.fab:hover {
+  transform: scale(1.1);
+}
+.a:hover {
+  color: yellow;
 }
 
 footer {
