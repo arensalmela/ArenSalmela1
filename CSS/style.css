@@ -12,10 +12,17 @@ body {
   justify-content: flex-end;
 }
 
-/*Google font addition*/
+.roundCorners {
+  border-radius: 10%;
+}
 
-main h1 h5 div header {
-  font-family: "Roboto", sans-serif;
+.imgRound {
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+}
+
+.changeFont {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /*Psuedo Code for social links */
@@ -29,7 +36,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: gray;
+  background-color: #333;
   height: 5%;
   text-align: center;
 }
@@ -40,4 +47,40 @@ footer {
 
 .newText {
   color: white;
+}
+
+/* Nav bar CSS
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 5;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }

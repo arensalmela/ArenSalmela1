@@ -8,7 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aren Salmela || Portfolio</title>
 
-    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -24,82 +29,63 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="CSS/style.css" />
-  </head>
 
-  <!--Nav Bar-->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/73e6b343b9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-color">
-        <a class="navbar-brand newText" href="#">Aren Salmela</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse navbarright" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <!--Linking other pages-->
-
-              <a class="nav-link" href="#aboutMe"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="changeFont display-4">Aren Salmela</h1>
+          <p class="changeFont lead">An expression of myself</p>
         </div>
-      </nav>
+      </div>
     </header>
+
+    <nav class="changeFont" id="navbar">
+      <a href="#aboutme">About Me</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact Info</a>
+    </nav>
 
     <!--Header Section-->
     <section>
       <div id="aboutMe" class="container border-bottom pt-3">
         <div class="page-header">
-          <h1>About Me</h1>
+          <h1 class="changeFont">About Me</h1>
         </div>
       </div>
     </section>
 
     <main class="container mt-3 mb-3">
-      <div class="bg-color pt-3 pl-3 pt-3 pr-3">
+      <div class="roundCorners bg-color pt-3 pl-3 pt-3 pr-3">
         <div class="row">
           <div class="col">
             <img
               src="Assets/Images/Head Shot.jpg"
-              class="float-left mb-2 mr-3"
+              class="roundCorners imgSize float-left mb-2 mr-3"
               alt="Aren Salmela Head Shot"
             />
-            <p class="newText">
+            <p class="changeFont newText">
               Hello! My name is Aren and I am from Beverly, Massachusetts. I
               graduated from the University of New Hampshire in 2017. I
               currently work as an Account Manager for a craft beverage
               distributer in Massachusetts.
             </p>
 
-            <p class="newText">
+            <p class="changeFont newText">
               In my spare time, I love playing video games, discovering new
               craft beer, traveling, and binge watching new shows on Netflix. If
               I am able to disappear for a day, I love making my way up to Loon
@@ -118,24 +104,24 @@
       <section>
         <div id="portfolio" class="container border-bottom pt-3">
           <div class="page-header">
-            <h1>Portfolio</h1>
+            <h1 class="changeFont">Portfolio</h1>
           </div>
         </div>
       </section>
 
       <div>
-        <div class="container bg-color mt-3">
+        <div class="container roundCorners bg-color mt-3">
           <div class="row pt-5">
             <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
-              <div class="card" style="width: 18rem">
+              <div class="card roundCorners" style="width: 18rem">
                 <img
-                  class="card-img-top"
+                  class="imgRound card-img-top"
                   src="Assets/Images/WeatherDB.png"
                   alt="Card image cap"
                 />
                 <div class="card-body card-color">
-                  <h5 class="card-title">Weather Dashboard</h5>
-                  <p>Input a city, find out the weather</p>
+                  <h5 class="changeFont card-title">Weather Dashboard</h5>
+                  <p class="changeFont">Input a city, find out the weather</p>
                   <a
                     href=" https://arensalmela.github.io/WeatherDashboard/"
                     target="_blank"
@@ -154,15 +140,15 @@
             </div>
             <br />
             <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
-              <div class="card" style="width: 18rem">
+              <div class="card roundCorners" style="width: 18rem">
                 <img
-                  class="card-img-top"
+                  class="imgRound card-img-top"
                   src="Assets/Images/Project1.png"
                   alt="Card image cap"
                 />
                 <div class="card-body card-color">
-                  <h5 class="card-title">Stay Yummy!</h5>
-                  <p>Discover hotels and restaurants</p>
+                  <h5 class="changeFont card-title">Stay Yummy!</h5>
+                  <p class="changeFont">Discover hotels and restaurants</p>
                   <a
                     href=" https://arensalmela.github.io/TravelWebsite/"
                     target="_blank"
@@ -185,15 +171,15 @@
 
           <div class="row pt-5 pb-5">
             <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
-              <div class="card" style="width: 18rem">
+              <div class="card roundCorners" style="width: 18rem">
                 <img
-                  class="card-img-top"
+                  class="imgRound card-img-top"
                   src="Assets/Images/WDSched.png"
                   alt="Card image cap"
                 />
                 <div class="card-body card-color">
-                  <h5 class="card-title">Schedule</h5>
-                  <p>Keep yourself organized</p>
+                  <h5 class="changeFont card-title">Schedule</h5>
+                  <p class="changeFont">Keep yourself organized</p>
                   <a
                     href=" https://arensalmela.github.io/WorkDayScheduler/
                   "
@@ -212,15 +198,15 @@
             </div>
             <br />
             <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center">
-              <div class="card" style="width: 18rem">
+              <div class="roundCorners card" style="width: 18rem">
                 <img
-                  class="card-img-top"
+                  class="imgRound card-img-top"
                   src="Assets/Images/password.png"
                   alt="Card image cap"
                 />
                 <div class="card-body card-color">
-                  <h5 class="card-title">Password Generator</h5>
-                  <p>Need a new password?</p>
+                  <h5 class="changeFont card-title">Password Generator</h5>
+                  <p class="changeFont">Need a new password?</p>
                   <a
                     href=" https://arensalmela.github.io/PasswordGenerator/"
                     target="_blank"
@@ -242,23 +228,48 @@
       </div>
     </main>
 
+    <section>
+      <div id="contact" class="container border-bottom pt-3">
+        <div class="page-header">
+          <h1 class="changeFont">Contact</h1>
+        </div>
+      </div>
+    </section>
+
     <!--Links for LinkedIn and GitHub-->
     <section class="container d-flex justify-content-center">
       <div class="row">
         <div class="col">
-          <a href="https://www.linkedin.com/in/arensalmela/" target="_blank"
-            >LinkedIn</a
-          >
+          <a target="_blank" href="https://www.linkedin.com/in/arensalmela/">
+            <button
+              type="button"
+              class="btn container mt-auto"
+              alt="GitHub icon not found"
+            >
+              <i class="fab fa-3x fa-linkedin-in"></i>
+            </button>
+          </a>
         </div>
         <div class="col">
-          <a href="https://github.com/arensalmela" target="_blank">GitHub </a>
+          <a target="_blank" href="https://github.com/arensalmela">
+            <button
+              type="button"
+              class="btn container mt-auto"
+              alt="GitHub icon not found"
+            >
+              <i class="fab fa-3x fa-github"></i>
+            </button>
+          </a>
         </div>
       </div>
     </section>
+    <br />
+    <br />
     <footer>
-      <h5>
+      <h5 class="newText changeFont">
         This Website is always a work in progress, thank you for stopping by.
       </h5>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
