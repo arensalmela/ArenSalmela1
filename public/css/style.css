@@ -2,10 +2,15 @@
 
 body {
   background: #295675 url("Assets/Images/c4.jpg") no-repeat center top;
+  font-size: larger;
+}
+
+.portfolioBtns {
+  justify-content: space-around;
 }
 
 .bg-color {
-  background-color: #051458e3;
+  background-color: #b7b8bbe3;
 }
 
 .navbarright {
@@ -14,6 +19,7 @@ body {
 
 .roundCorners {
   border-radius: 10%;
+  height: 100%;
 }
 
 .imgRound {
@@ -39,10 +45,6 @@ footer {
   background-color: #333;
   height: 5%;
   text-align: center;
-}
-
-.card-color {
-  background-color: #585ae91f;
 }
 
 .newText {
