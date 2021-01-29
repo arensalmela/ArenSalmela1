@@ -33,7 +33,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- <link rel="stylesheet" href="./public/css/style.css" /> -->
+    <link rel="stylesheet" href="./public/css/style.css" />
     <script
       src="https://kit.fontawesome.com/73e6b343b9.js"
       crossorigin="anonymous"
@@ -56,19 +56,20 @@
       </div>
     </div>
 
+    <div class="row">
+      <div class="col">
+        <nav class="changeFont" id="navbar">
+          <a href="#aboutMe">About Me</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact Info</a>
+        </nav>
+      </div>
+    </div>
+
     <!-- Left contact panel -->
 
     <div class="row">
-      <div class="col-3">
-        <div class="row">
-          <div class="col">
-            <nav class="changeFont" id="navbar">
-              <a href="#aboutMe">About Me</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#contact">Contact Info</a>
-            </nav>
-          </div>
-        </div>
+      <div class="col-3 leftBackground">
         <div class="row">
           <div class="contact">
             <div class="full-height">
@@ -108,111 +109,170 @@
       </div>
 
       <!-- main content right side -->
+      <div class="container">
+        <div class="col-9">
+          <!-- about me section -->
 
-      <div class="col-9">
-        <!-- about me section -->
-
-        <div class="row">
-          <div class="col">
-            <div id="newText" class="container border-bottom pt-3">
-              <div class="page-header">
-                <h1 class="newText changeFont">About Me</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p class="changeFont newText">
-              Hello! My name is Aren and I am from Beverly, Massachusetts. I
-              graduated from the University of New Hampshire in 2017. I
-              currently work as an Account Manager for a craft beverage
-              distributer in Massachusetts.
-            </p>
-
-            <p class="changeFont newText">
-              In my spare time, I love playing video games, discovering new
-              craft beer, traveling, and binge watching new shows on Netflix. If
-              I am able to disappear for a day, I love making my way up to Loon
-              Mountain in New Hampshire for some snowboarding. I am incredibly
-              excited to be a part of the UNH Coding Boot Camp. I am hoping to
-              learn new technical skills that I can build upon for the rest of
-              my life.
-            </p>
-          </div>
-        </div>
-
-        <!-- portfolio section -->
-
-        <div class="row">
-          <div class="col">
-            <div id="portfolio" class="container border-bottom pt-3">
-              <div class="page-header">
-                <h1 class="newText changeFont">Portfolio</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- project cards -->
-
-        <div class="row">
-          <div class="col">
-            <div
-              class="card shadow-lg p-3 mb-5 roundCorners"
-              style="width: 18rem"
-            >
-              <img
-                class="imgRound card-img-top"
-                src="Assets/Images/WeatherDB.png"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="changeFont card-title">Weather Dashboard</h5>
-                <p class="changeFont">Input a city, find out the weather</p>
-                <div class="row portfolioBtns">
-                  <a
-                    href=" https://arensalmela.github.io/WeatherDashboard/"
-                    target="_blank"
-                    class="btn btn-outline-primary"
-                    >Website</a
-                  >
-                  <br />
-                  <a
-                    href="https://github.com/arensalmela/WeatherDashboard"
-                    target="_blank"
-                    class="btn btn-outline-primary"
-                    >Github
-                  </a>
+          <div class="row">
+            <div class="col">
+              <div id="newText" class="container border-bottom pt-3">
+                <div class="page-header">
+                  <h1 class="newText changeFont">About Me</h1>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card shadow-lg p-3 roundCorners" style="width: 18rem">
-              <img
-                class="imgRound card-img-top"
-                src="Assets/Images/Project1.png"
-                alt="Card image cap"
-              />
-              <div class="card-body card-color">
-                <h5 class="changeFont card-title">Stay Yummy!</h5>
-                <p class="changeFont">Discover hotels and restaurants</p>
+          <div class="row">
+            <div class="col">
+              <p class="changeFont newText">
+                Hello! My name is Aren and I am from Beverly, Massachusetts. I
+                graduated from the University of New Hampshire in 2017. I
+                currently work as an Account Manager for a craft beverage
+                distributer in Massachusetts.
+              </p>
 
-                <div class="row portfolioBtns">
-                  <a
-                    href=" https://arensalmela.github.io/TravelWebsite/"
-                    target="_blank"
-                    class="btn btn-outline-primary"
-                    >Website</a
-                  >
-                  <br />
-                  <a
-                    href="https://github.com/arensalmela/TravelWebsite"
-                    target="_blank"
-                    class="btn btn-outline-primary"
-                    >Github</a
-                  >
+              <p class="changeFont newText">
+                In my spare time, I love playing video games, discovering new
+                craft beer, traveling, and binge watching new shows on Netflix.
+                If I am able to disappear for a day, I love making my way up to
+                Loon Mountain in New Hampshire for some snowboarding. I am
+                incredibly excited to be a part of the UNH Coding Boot Camp. I
+                am hoping to learn new technical skills that I can build upon
+                for the rest of my life.
+              </p>
+            </div>
+          </div>
+
+          <!-- portfolio section -->
+
+          <div class="row">
+            <div class="col">
+              <div id="portfolio" class="container border-bottom pt-3">
+                <div class="page-header">
+                  <h1 class="newText changeFont">Portfolio</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- project cards -->
+
+          <div class="row">
+            <div class="col">
+              <div
+                class="card shadow-lg p-3 mb-5 roundCorners"
+                style="width: 18rem"
+              >
+                <img
+                  class="imgRound card-img-top"
+                  src="Assets/Images/WeatherDB.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="changeFont card-title">Weather Dashboard</h5>
+                  <p class="changeFont">Input a city, find out the weather</p>
+                  <div class="row portfolioBtns">
+                    <a
+                      href=" https://arensalmela.github.io/WeatherDashboard/"
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                      >Website</a
+                    >
+                    <br />
+                    <a
+                      href="https://github.com/arensalmela/WeatherDashboard"
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                      >Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-lg p-3 roundCorners" style="width: 18rem">
+                <img
+                  class="imgRound card-img-top"
+                  src="Assets/Images/Project1.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body card-color">
+                  <h5 class="changeFont card-title">Stay Yummy!</h5>
+                  <p class="changeFont">Discover hotels and restaurants</p>
+
+                  <div class="row portfolioBtns">
+                    <a
+                      href=" https://arensalmela.github.io/TravelWebsite/"
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                      >Website</a
+                    >
+                    <br />
+                    <a
+                      href="https://github.com/arensalmela/TravelWebsite"
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card shadow-lg p-3 roundCorners" style="width: 18rem">
+                <img
+                  class="imgRound card-img-top"
+                  src="Assets/Images/WDSched.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body card-color">
+                  <h5 class="changeFont card-title">Schedule</h5>
+                  <p class="changeFont">Keep yourself organized</p>
+                  <div class="row portfolioBtns">
+                    <a
+                      href=" https://arensalmela.github.io/WorkDayScheduler/
+                "
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                      >Website</a
+                    >
+                    <a
+                      href="https://github.com/arensalmela/WorkDayScheduler"
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="roundCorners shadow-lg p-3 card" style="width: 18rem">
+                <img
+                  class="imgRound card-img-top"
+                  src="Assets/Images/password.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body card-color">
+                  <h5 class="changeFont card-title">Password Generator</h5>
+                  <p class="changeFont">Need a new password?</p>
+                  <div class="row portfolioBtns">
+                    <a
+                      href=" https://arensalmela.github.io/PasswordGenerator/"
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                      >Website</a
+                    >
+                    <a
+                      href="https://github.com/arensalmela/PasswordGenerator"
+                      target="_blank"
+                      class="btn btn-outline-primary"
+                    >
+                      GitHub
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
