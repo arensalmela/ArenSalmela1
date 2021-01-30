@@ -47,17 +47,22 @@
   <body>
     <!--Header Section-->
     <header>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="changeFont display-4">Aren Salmela</h1>
-          <p class="changeFont lead">An expression of myself</p>
-        </div>
+      <div
+        class="jumbotron"
+        style="
+          background-image: url(Assets/Images/jumbotron.png);
+          background-size: 100%;
+        "
+      >
+        <h1 class="jumboFont display-4">Aren Salmela</h1>
+        <p class="jumboFont lead">An expression of myself</p>
       </div>
     </header>
 
     <nav class="changeFont" id="navbar">
       <a href="#aboutMe">About Me</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="#skills">Skills</a>
       <a href="#contact">Contact Info</a>
     </nav>
 
@@ -71,7 +76,7 @@
     </section>
 
     <main class="container mt-3 mb-3">
-      <div class="bg-color pt-3 pl-3 pt-3 pr-3">
+      <div class="pt-3 pl-3 pt-3 pr-3">
         <div class="row">
           <div class="col">
             <img
@@ -299,7 +304,31 @@
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <div id="skills" class="container border-bottom pt-3">
+        <div class="page-header">
+          <h1 class="newText changeFont">Applicable Skills</h1>
+        </div>
+      </div>
+      <table style="width: 100%">
+        <tr>
+          <th class="changeFont skillText">JavaScript</th>
+          <th class="changeFont skillText">MySQL</th>
+          <th class="changeFont skillText">Mongoose</th>
+        </tr>
+        <br />
+        <tr>
+          <th class="changeFont skillText">HTML</th>
+          <th class="changeFont skillText">CSS</th>
+          <th class="changeFont skillText">Databases / API</th>
+        </tr>
+      </table>
     </main>
+    <br />
+    <br />
+    <br />
 
     <section>
       <div id="contact" class="container border-bottom pt-3">
@@ -337,14 +366,27 @@
       </div>
     </section>
     <br />
+    <br />
+    <br />
+    <br />
 
     <h4 class="newText d-flex justify-content-center">
       Please feel free to reach out. I look forward to hearing from you.
     </h4>
+
+    <div class="d-flex justify-content-center">
+      <p>
+        Banner Image:
+        <a href="https://pngtree.com/free-backgrounds"
+          >free background photos from pngtree.com</a
+        >
+      </p>
+    </div>
     <br />
     <br />
     <br />
     <br />
+
     <footer>
       <h5 class="newText changeFont">
         This Website is always a work in progress, thank you for stopping by.
