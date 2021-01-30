@@ -26,6 +26,13 @@ https://arensalmela.github.io/ResponsivePortfolio/
 - Added icons for contact websites
 - Darker colors are used to be easier on the eyes
 
+### Update Assignment #2
+
+- Added new project cards.
+- Format changes for a cleaner and more pleasant interface.
+- Kept dark theme and removed rounded edges.
+- Removed unnecessary css attributes.
+
 ## Recent screen shots
 
 ![nav bar and banner](Assets/Screeshots/new1.png)
@@ -34,6 +41,7 @@ https://arensalmela.github.io/ResponsivePortfolio/
 
 ## Screen shots of website
 
+![Screenshot About me page 1](Assets/Screeshots/update3.png)
 ![Screenshot About me page 1](Assets/Screeshots/Aboutme1.png)
 ![Screenshot About me page 2](Assets/Screeshots/Aboutme2.png)
 ![Screenshot Portfolio page 1](Assets/Screeshots/Portfolio1.png)
