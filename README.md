@@ -35,13 +35,13 @@ https://arensalmela.github.io/ResponsivePortfolio/
 
 ## Recent screen shots
 
+![Screenshot About me page 1](Assets/Screeshots/update3.png)
 ![nav bar and banner](Assets/Screeshots/new1.png)
 ![portfolio section](Assets/Screeshots/new2.png)
 ![contact section](Assets/Screeshots/new3.png)
 
 ## Screen shots of website
 
-![Screenshot About me page 1](Assets/Screeshots/update3.png)
 ![Screenshot About me page 1](Assets/Screeshots/Aboutme1.png)
 ![Screenshot About me page 2](Assets/Screeshots/Aboutme2.png)
 ![Screenshot Portfolio page 1](Assets/Screeshots/Portfolio1.png)
